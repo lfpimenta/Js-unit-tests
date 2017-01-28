@@ -40,7 +40,7 @@ More info on [me](https://github.com/lpimenta-ptc) or [mocha js site](https://mo
 
   First you need to *require i18n*, then you need to make callback to translation on *pt_PT* (use closure scope)
 
-# Testing *Initiator*
+# Testing *Initiator.js*
 
 ## 1. Create empty *initiator.js* file on tests folder ( 1 min)
 
