@@ -30,4 +30,4 @@ npm install
 
 ## Source code
 
-Code to be tested is in [app](../app) folder
+Code to be tested is in [app](./app) folder
