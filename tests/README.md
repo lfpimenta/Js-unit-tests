@@ -54,10 +54,10 @@ More info on [me](https://github.com/lpimenta-ptc) or [mocha js site](https://mo
   
 ## 4.TESTING
 
-### 4.1 Assert that Number has formatMoney prototype
+### 4.1 Assert that Number has formatMoney prototype (2 min)
 
-### 4.2 Assert that __1200__ formats to __€ 1.200,00__
+### 4.2 Assert that __1200__ formats to __€ 1.200,00__ (2 min)
 
-### 4.3 Refactor to have a dataProvider situation
+### 4.3 Refactor to have a dataProvider situation (5-10 min)
 
 Note: In each test we must recreate the prototype and clean required cache
