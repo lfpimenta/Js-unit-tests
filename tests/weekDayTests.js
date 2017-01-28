@@ -9,5 +9,9 @@ var weekDay = require('../app/weekday');
 
 describe("Weekday - getWeekDay", function () {
     "use strict";
-    it("Should return correct day for monday");
+    it("Should return correct day for monday", function () {
+        var instance = new weekDay(1);
+        var result = instance.getWeekDay();
+        assert.equal('Monday', result);
+    });
 });
