@@ -2,11 +2,11 @@
 function init () {
     "use strict";
     Number.prototype.formatMoney = function () {
-        var decimalDigits = window.store.currency.decimalDigits,
-            symbol = window.store.currency.symbol,
-            symbolPosition = window.store.currency.symbolPosition,
-            thousandSeparator = window.store.currency.thousandsSeparator,
-            decimalSeparator = window.store.currency.decimalSeparator,
+        var decimalDigits = store.currency.decimalDigits,
+            symbol = store.currency.symbol,
+            symbolPosition = store.currency.symbolPosition,
+            thousandSeparator = store.currency.thousandsSeparator,
+            decimalSeparator = store.currency.decimalSeparator,
             number = this,
             strIntegerPart,
             thousandsGroupCount,
