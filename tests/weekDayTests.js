@@ -15,3 +15,13 @@ describe("Weekday - getWeekDay", function () {
         assert.equal('Monday', result);
     });
 });
+
+describe("Weekday - getWeekDay with callBack", function () {
+    "use strict";
+    it("Should return day modified by callback", function () {
+        var instance = new weekDay(3);
+        var callBack = function (data) { return 'Day: ' + data;};
+        var result = instance.getWeekDay(callBack);
+        assert.equal('Day: Thursday', result);
+    });
+});
