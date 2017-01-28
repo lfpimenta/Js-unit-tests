@@ -1,0 +1,37 @@
+{
+  "name": "js-unit-tests-mocha",
+  "version": "1.0.0",
+  "description": "Javascript Testing WorkShop on Jumia with node and mocha",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "3.5.0",
+    "istanbul": "0.4.5",
+    "mocha": "3.2.0",
+    "sinon": "1.17.7"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpimenta-ptc/Js-unit-tests.git"
+  },
+  "keywords": [
+    "unit",
+    "tests",
+    "mocha",
+    "istanbul",
+    "chai",
+    "sinon"
+  ],
+  "author": "Luis Filipe Magalhaes Pimenta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpimenta-ptc/Js-unit-tests/issues"
+  },
+  "homepage": "https://github.com/lpimenta-ptc/Js-unit-tests#readme"
+}
