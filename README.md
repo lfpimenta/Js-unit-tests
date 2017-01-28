@@ -31,3 +31,21 @@ npm install
 ## Source code
 
 Code to be tested is in [app](./app) folder
+
+## How to run tests
+
+```
+npm test
+```
+
+or
+
+```
+./node_modules/mocha/bin/mocha tests/*.js
+```
+
+## Run tests with Coverage
+
+```
+./node_modules/.bin/istanbul cover node_modules/.bin/_mocha tests/*.js
+```
