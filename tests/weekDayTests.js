@@ -36,3 +36,15 @@ describe("Weekday - getWeekDay with callBack - using sinon", function () {
         assert(callBack.calledWith('Monday'), 'Incorrect call args');
     });
 });
+
+describe("Weekday - getWeekDay with translation integration", function () {
+    "use strict";
+    it("Should return day modified by callback", function () {
+        var instance = new weekDay(2);
+        var i18n = require('../app/i18n');
+        var callBackTranslatePt = function (phrase) {return i18n(phrase, 'pt_PT');};
+
+        var result = instance.getWeekDay(callBackTranslatePt);
+        assert.equal('Terça-feira', result);
+    });
+});
