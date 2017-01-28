@@ -20,6 +20,7 @@ npm istall mocha --save-dev
 npm install chai --save-dev
 npm install sinon --save-dev
 npm install istanbul --save-dev
+npm install mocha-istanbul --save-dev
 ``` 
 
 ### Setup (when package.json is properly set)
