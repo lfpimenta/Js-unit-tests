@@ -35,6 +35,8 @@ More info in [wiki](https://github.com/lpimenta-ptc/Js-unit-tests/wiki/Mocha-Bas
 #### a. Lets test weekday with i18n and translate for example Monday to Segunda-feira (5-10 min)
 
   First you need to *require i18n*, then you need to make callback to translation on *pt_PT* (use closure scope)
+  
+  ----
 
 # Testing *Initiator.js*
 
