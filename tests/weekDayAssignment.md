@@ -19,7 +19,7 @@ More info in [wiki](https://github.com/lpimenta-ptc/Js-unit-tests/wiki/Mocha-Bas
 #### a. Add first test to assert monday 
 Hints:
   * Make sure that weekday object is correctly instantiated
-  * Assert the result is the expected one see [this](https://github.com/lpimenta-ptc/Js-unit-tests/wiki#chai---assert) for more info
+  * Assert that the result is the expected one.  See [this](https://github.com/lpimenta-ptc/Js-unit-tests/wiki#chai---assert) for more info
 
 #### b. Make testing fail and correct it again 
 Steps:
