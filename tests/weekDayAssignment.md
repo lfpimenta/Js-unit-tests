@@ -30,10 +30,3 @@ More info in [wiki](https://github.com/lpimenta-ptc/Js-unit-tests/wiki/Mocha-Bas
   Inject a spy instead of a callback, then assert the calls with sinon's *calledOnce* and *calledWith*
   
   Note: don't forget to require it
-
-### 4.2 Integration testing
-
-#### a. Lets test weekday with i18n and translate for example Monday to Segunda-feira (5-10 min)
-
-  First you need to *require i18n*, then you need to make callback to translation on *pt_PT* (use closure scope)
-  
