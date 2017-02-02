@@ -38,3 +38,9 @@ Hints:
 Note: In each test we must recreate the prototype and clean required cache, so make the necessary calls
 
 ### 4.4 Make dataProvider to test various scenarios 
+Hints:
+   * Check this [documentation](https://mochajs.org/#dynamically-generating-tests)
+   * make the apply call to be for **setStoreAndInitialize**
+   * populate the array of object scenarios with properties **inputArray** and **expectedResult**
+   * make the assertions necessary
+ 
