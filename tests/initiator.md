@@ -1,23 +1,28 @@
 # Testing *Initiator.js*
 
-## 1. Create empty *initiator.js* file on tests folder ( 1 min)
+## 1. Create empty *initiator.js* file on tests folder
 
-## 2. Make necessary requires (1 min)
-  * App Code
-  * Chai
+## 2. Make necessary requires
+
+Hints:
+  * the code itself ( use require(pathToFilename) )
+  * chai assertion to use assert module see [here](https://github.com/lpimenta-ptc/Js-unit-tests/wiki#chai---assert)
   
-## 3. Indentify dependencies & refactor app code (5 min)
+## 3. Indentify dependencies & refactor app code
+Hints:
   * window
   
 ## 4.TESTING
 
-### 4.1 Assert that Number has formatMoney prototype (2 min)
+### 4.1 Assert that Number has formatMoney prototype
 
-### 4.2 Assert that __1200__ formats to __€ 1.200,00__ (5 min)
-
-  * store - inject values need - put this in a function with default values
-
-### 4.3 Refactor code so that setStore and require be on same function to initialize all (5-10 min)
+### 4.2 Assert that __1200__ formats to __€ 1.200,00__ 
+Hints:
+  * use global to simulate store object
+  * on store inject values need
+  * create *setStore* function that accepts parameters with default values to create the store object 
+  
+### 4.3 Refactor code so that setStore and require be on the same function to initialize all
 
   * prototype must be deleted,
   * require cache must be clean
@@ -25,4 +30,4 @@
   
 Note: In each test we must recreate the prototype and clean required cache
 
-### 4.4 Make dataProvider to test varous scenarios 
+### 4.4 Make dataProvider to test various scenarios 
