@@ -37,4 +37,4 @@ Hints:
   * Require sinon
   * Make a similar test as the last, but inject a sinon spy instead of a callback
   * Assert then the calls with sinon's *calledOnce* and *calledWith*
-  
+More info on [wiki](https://github.com/lpimenta-ptc/Js-unit-tests/wiki#sinon)
