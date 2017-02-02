@@ -4,8 +4,9 @@
 ## 1. Create empty file *weekday.js* on tests folder (1 min)
 
 ## 2. Put necessary requires (1 min)
-  - the code itself
-  - chai assertion to use assert module
+Hints:
+  - the code itself ( use require(pathToFilename) )
+  - chai assertion to use assert module see [here](../wiki)
 
 ## 3. Add necessary test blocks skeletons (2-3 min)
 
