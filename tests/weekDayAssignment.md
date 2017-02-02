@@ -17,7 +17,9 @@ More info in [wiki](https://github.com/lpimenta-ptc/Js-unit-tests/wiki/Mocha-Bas
 ### 4.1 Unit Testing
 
 #### a. Add first test to assert monday (5 min)
-  Make sure that object is correctly instantiated and the assert the result
+Hints:
+  Make sure that weekday object is correctly instantiated
+  Assert the result is the expected one see [this](https://github.com/lpimenta-ptc/Js-unit-tests/wiki#chai---assert) for more info
 
 #### b. Make testing fail and correct it again (2 min)
   Make a wrong assertion and correct it
