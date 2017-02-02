@@ -1,11 +1,11 @@
 # Testing *Initiator.js*
 
-## 1. Create empty *initiator.js* file on tests folder
+## 1. Create empty **initiator.js** file on tests folder
 
 ## 2. Make necessary requires
 
 Hints:
-  * the code itself ( use *require(pathToFilename)* )
+  * the code itself ( use **require(pathToFilename)** )
   * chai assertion to use assert module see [here](https://github.com/lpimenta-ptc/Js-unit-tests/wiki#chai---assert)
   
 ## 3. Indentify dependencies & refactor app code
@@ -18,15 +18,17 @@ Hints:
 
 ### 4.2 Assert that __1200__ formats to __€ 1.200,00__ 
 Hints:
-  * use *global* to simulate *store object*
+  * use **global** to simulate **store object**
   * on store inject values need
-  * create *setStore* function that accepts parameters with default values to create the store object 
+  * create **setStore** function that accepts parameters with default values to create the store object 
   
-### 4.3 Refactor code so that setStore and require be on the same function to initialize all
+### 4.3 Refactor code so that setStore and require will be called on the same function
 
-  * prototype must be deleted,
-  * require cache must be clean
-  * new require
+  * create a new function named **reloadInitiator** were:
+    * prototype must be **deleted**,
+    * **require cache** must be clean
+    * new require must be done
+  * rename setStore to **setStoreAndInitialize**, this function must call at the end **reloadinitializor**
   
 Note: In each test we must recreate the prototype and clean required cache
 
