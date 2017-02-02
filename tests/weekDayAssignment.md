@@ -36,5 +36,5 @@ Hints:
 Hints:
   * Require **sinon**
   * Make a similar test as the last one, but **inject a sinon spy** instead of a callback
-  * Assert then the calls with sinon's **calledOnce** and **calledWith** the expected value
+  * Asserts should be done with sinon's **calledOnce** and **calledWith** the expected value
 More info on [wiki](https://github.com/lpimenta-ptc/Js-unit-tests/wiki#sinon)
