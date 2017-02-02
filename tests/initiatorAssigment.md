@@ -28,13 +28,13 @@ Hints:
   * make the asserts and calls to setStore necessary
   
 ### 4.3 Refactor code so that setStore and require will be called on the same function
-
+Hints:
   * create a new function named **reloadInitiator** were:
-    * prototype must be **deleted**,
-    * **require cache** must be clean
-    * new require must be done
+    * prototype must be **deleted** `delete object.prototype.method;`
+    * **require cache** must be clean `delete require.cache[require.resolve(pathToFile)];`
+    * new require must be done `require(pathToFile);`
   * rename setStore to **setStoreAndInitialize**, this function must call at the end **reloadInitiator**
   
-Note: In each test we must recreate the prototype and clean required cache
+Note: In each test we must recreate the prototype and clean required cache, so make the necessary calls
 
 ### 4.4 Make dataProvider to test various scenarios 
