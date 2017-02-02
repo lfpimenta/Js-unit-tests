@@ -10,4 +10,4 @@ More info [here](inetegrationTestAssignment.md)
 
 ## 3. Test Initiator.js
 
-More info [here](initiator.md)
+More info [here](initiatorAssigment.md)
