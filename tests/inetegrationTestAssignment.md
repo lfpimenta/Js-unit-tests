@@ -6,6 +6,6 @@
 Hints:
 
   * require **i18n**
-  * create callBackI18n var to in order to the translation be locked to *pt_PT* (use closure scope)
+  * create var callBackTranslatePt to be equal to a function with parameter phrase that returns the translation phrase locked to *pt_PT* (use closure scope)
   * use callBackI18n
   * make the assertions
