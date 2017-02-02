@@ -5,7 +5,7 @@
 ## 2. Make necessary requires
 
 Hints:
-  * the code itself ( use require(pathToFilename) )
+  * the code itself ( use *require(pathToFilename)* )
   * chai assertion to use assert module see [here](https://github.com/lpimenta-ptc/Js-unit-tests/wiki#chai---assert)
   
 ## 3. Indentify dependencies & refactor app code
@@ -18,7 +18,7 @@ Hints:
 
 ### 4.2 Assert that __1200__ formats to __€ 1.200,00__ 
 Hints:
-  * use global to simulate store object
+  * use *global* to simulate *store object*
   * on store inject values need
   * create *setStore* function that accepts parameters with default values to create the store object 
   
