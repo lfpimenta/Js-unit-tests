@@ -6,7 +6,7 @@
 ## 2. Put necessary requires (1 min)
 Hints:
   * the code itself ( use require(pathToFilename) )
-  * chai assertion to use assert module see [here](https://github.com/lpimenta-ptc/Js-unit-tests/wiki)
+  * chai assertion to use assert module see [here](https://github.com/lpimenta-ptc/Js-unit-tests/wiki#chai---assert)
 
 ## 3. Add necessary test blocks skeletons (2-3 min)
 
