@@ -10,7 +10,7 @@ Hints:
 
 ## 3. Add necessary test blocks skeletons (2-3 min)
 
-More info in [wiki](https://github.com/lpimenta-ptc/Js-unit-tests/wiki/Mocha-Basic-Blocks) 
+More info in [wiki](/lpimenta-ptc/Js-unit-tests/wiki/Mocha-Basic-Blocks) 
 
 ## 4. TESTING 
 
