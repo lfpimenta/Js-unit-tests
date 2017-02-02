@@ -18,14 +18,19 @@ More info in [wiki](https://github.com/lpimenta-ptc/Js-unit-tests/wiki/Mocha-Bas
 
 #### a. Add first test to assert monday (5 min)
 Hints:
-  Make sure that weekday object is correctly instantiated
-  Assert the result is the expected one see [this](https://github.com/lpimenta-ptc/Js-unit-tests/wiki#chai---assert) for more info
+  * Make sure that weekday object is correctly instantiated
+  * Assert the result is the expected one see [this](https://github.com/lpimenta-ptc/Js-unit-tests/wiki#chai---assert) for more info
 
-#### b. Make testing fail and correct it again (2 min)
-  Make a wrong assertion and correct it
+#### b. Make testing fail and correct it again (1 min)
+Steps:
+
+  * Make a wrong assertion and run the test
+  * Correct the assertion
 
 #### c. Testing weekday with a callback (5 min)
-  Add a custom call back that for example prefix result with 'Day: ' and assert the expected result
+Hints:
+  * Define a var named callBack that points to a function that for example prefix result parameter with 'Day: '
+  * Invoke function with the callback and assert the expected result
 
 #### d. Use sinon to garantee that callback function is called and with correct parameters (5-10 min)
   [Sinon](http://sinonjs.org/) is a very powerfull library that allows us to make [spies](http://sinonjs.org/docs/#spies).
