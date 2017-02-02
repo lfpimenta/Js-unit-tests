@@ -1,6 +1,6 @@
 # Assigments
 
-## 1. [Test Weekday.js] - testing with callBacks (weekDayAssignment.md)
+## 1. [Test Weekday.js](weekDayAssignment.md) - testing with callBacks
 
 ## 2. [Test Weekday.js with I18n](inetegrationTestAssignment.md) - an integration test
 
