@@ -1,7 +1,7 @@
 
 # Integration testing
 
-#### Lets test weekday with i18n and translate for example Monday to Segunda-feira (5-10 min)
+#### Lets test weekday with i18n and translate for example Monday to Segunda-feira 
 
 Hints:
 
