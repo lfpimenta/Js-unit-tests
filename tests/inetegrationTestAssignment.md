@@ -1,7 +1,9 @@
 
 # Integration testing
 
-#### Lets test weekday with i18n and translate for example Monday to Segunda-feira 
+Lets test weekday with i18n and translate for example Monday to Segunda-feira 
+
+## 1. Open **weekDay.js.js** test file on tests folder
 
 Hints:
 
