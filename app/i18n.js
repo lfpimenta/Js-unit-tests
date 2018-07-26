@@ -11,6 +11,18 @@ var mapping = {
     'Tuesday': {
         'en_UK': 'Tuesday',
         'pt_PT': 'Terça-feira'
+    },
+    'Wednesday': {
+        'en_UK': 'Wednesday',
+        'pt_PT': 'Quarta-feira'
+    },
+    'Thursday': {
+        'en_UK': 'Thursday',
+        'pt_PT': 'Quinta-feira'
+    },
+    'Friday': {
+        'en_UK': 'Friday',
+        'pt_PT': 'Sexta-feira'
     }
 };
 
