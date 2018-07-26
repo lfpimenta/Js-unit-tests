@@ -36,9 +36,9 @@ WeekDay.prototype.getWeekDay = function (callback) {
     }
     if (typeof callback === 'function') {
         return callback(result);
-    } else {
-        return result;
-    }
+    } 
+    
+    return result;
 };
 
 module.exports = WeekDay;
